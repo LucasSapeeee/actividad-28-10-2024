@@ -3,7 +3,7 @@
 }
 
 body {
-    background: linear-gradient(100deg, #08daff, #0444bd, #3302a5);
+    background: linear-gradient(100deg, #7a05b1, #4e0cc9, #3302a5);
     margin: auto;
     display: flex;
     justify-content: center;
@@ -11,4 +11,8 @@ body {
     height: 100px;
     gap: 80px;
     position: relative;
+}
+
+.contenedor{
+    
 }
