@@ -3,7 +3,9 @@
 }
 
 body {
-    background: linear-gradient(100deg, #7a05b1, #4e0cc9, #3302a5);
+    background-image: url(../image/fish.gif);
+    background-repeat: no-repeat;
+    background-size: 100% 1000%;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -14,5 +16,16 @@ body {
 }
 
 .contenedor{
-    
+    margin-top: 25%;
+    background: transparent
+    height: 380px;
+    width: 250px;
+    padding:25px;
+    border-radius: 25px;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    border: 2px solid #B80C09;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
