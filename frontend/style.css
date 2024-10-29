@@ -3,7 +3,8 @@
 }
 
 body {
-    background-image: url(../image/fish.gif);
+
+    background-image: url(../image/fishfast.gif);
     background-repeat: no-repeat;
     background-size: 100% 1000%;
     margin: auto;
@@ -11,21 +12,57 @@ body {
     justify-content: center;
     align-items: center;
     height: 100px;
-    gap: 80px;
+    gap: 100px;
     position: relative;
 }
 
 .contenedor{
-    margin-top: 25%;
-    background: transparent
+    margin-top: 40%;
+    background-color: #b61a1a;
     height: 380px;
     width: 250px;
-    padding:25px;
-    border-radius: 25px;
-    display:flex;
+    padding: 50px;
+    border-radius: 45px;
+    display: flex;
     flex-direction: column;
     text-align: center;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-    border: 2px solid #B80C09;
+}
+
+h1 {
+    margin-bottom: 40px;
+    letter-spacing: 8px;
+    color:#000000;
+    font-size: 33px;
+}
+form {
+    height: 100%;
+}
+
+label {
+    letter-spacing: 4px;
+    font-size: 17px;
+}
+
+input{
+    padding: 3px;
+    width: 80%;
+    margin:15px;
+    border-radius: 5px;
+    border: 1.4px solid #B80C09;
+    }
+
+.boton{
+    margin-top:50px;
+    height: 200%;
+    width: 100%;
+    border: 1px solid #B80C09;
+    border-radius: 4px;
+    padding: 4px;
+    height: 50px;
+    background-color: #000000;
+    letter-spacing: 2px;
+    color: #B7B5B3; 
+    cursor: pointer;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 10px;
 }
