@@ -3,10 +3,9 @@
 }
 
 body {
-
     background-image: url(../image/fishfast.gif);
     background-repeat: no-repeat;
-    background-size: 100% 1000%;
+    background-size: 100% 100%;
     margin: auto;
     display: flex;
     justify-content: center;
